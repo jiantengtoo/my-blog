@@ -11,13 +11,12 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.js
-    siteTitle: `Minimal Blog`,
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
-    siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://minimal-blog.lekoarts.de`,
-    siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
-    siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    siteTitle: `JT's Blog`,
+    siteTitleAlt: `JT's Blog`,
+    siteHeadline: `JT's Blog`,
+    siteUrl: `https://jiantengtoo.github.io/my-blog/`,
+    siteDescription: `My journey as a Software Developer`,
+    author: `Jian Teng`,
   },
   trailingSlash: `never`,
   plugins: [
@@ -30,19 +29,11 @@ module.exports = {
             title: `Blog`,
             slug: `/blog`,
           },
-          {
-            title: `About`,
-            slug: `/about`,
-          },
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
-          },
-          {
-            name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            name: `Linkedin`,
+            url: `https://www.linkedin.com/in/jianteng-too/`,
           },
         ],
       },
